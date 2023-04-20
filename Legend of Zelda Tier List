@@ -1,0 +1,21 @@
+CREATE TABLE Favorite_Zeldas (id integer primary key, name text, ranking integer);
+
+INSERT INTO Favorite_Zeldas VALUES
+(1, "Ocarina of Time", 5),
+(2, "Majora's Mask", 8),
+(3, "Wind Waker", 2),
+(4, "Skyward Sword", 6),
+(5, "Breath of the Wild", 4),
+(6, "Tears of the Kingdom", 1),
+(7, "Minish Cap", 7),
+(8, "Four Swords", 13),
+(9, "Link's Awakening", 10),
+(10, "Zelda 1", 14),
+(11, "Zelda 2", 15), 
+(12, "A Link to the Past", 9),
+(13, "Oracle of Ages", 12),
+(14, "Oracle of Seasons", 11),
+(15, "Twilight Princess", 3);
+
+SELECT * FROM Favorite_Zeldas ORDER BY ranking asc;
+
